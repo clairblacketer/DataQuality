@@ -4,12 +4,21 @@
 \alias{dashboardLabThresholds}
 \title{Execute all components of the DataQuality study (resultsDatabaseSchema is where Achilles results are)}
 \usage{
-dashboardLabThresholds(connectionDetails, connectionDetails2)
+dashboardLabThresholds(
+  connectionDetails,
+  connectionDetails2,
+  runViaAchilles = FALSE,
+  exportThreshold = 11
+)
 }
 \arguments{
 \item{connectionDetails}{connection}
 
 \item{connectionDetails2}{more study parameters}
+
+\item{runViaAchilles}{flag that runs legacy analysis using Achilles measure (analysis)}
+
+\item{exportThreshold}{removes rows that have fewer than specified events (default is 11)}
 }
 \description{
 Execute all components of the DataQuality study (resultsDatabaseSchema is where Achilles results are)

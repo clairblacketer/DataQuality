@@ -2,11 +2,16 @@
 % Please edit documentation in R/StudySpecific.R
 \name{.createConnectionDetails2}
 \alias{.createConnectionDetails2}
-\title{more details}
+\title{helper object with more connection details}
 \usage{
-.createConnectionDetails2(cdmDatabaseSchema,
-  resultsDatabaseSchema = NULL, oracleTempSchema = NULL,
-  cdmVersion = NULL, cohortTable = "cohort", workFolder = "c:/temp")
+.createConnectionDetails2(
+  cdmDatabaseSchema,
+  resultsDatabaseSchema = NULL,
+  oracleTempSchema = NULL,
+  cdmVersion = "5",
+  cohortTable = "cohort",
+  workFolder = "c:/temp"
+)
 }
 \arguments{
 \item{cdmDatabaseSchema}{schema}
@@ -22,5 +27,5 @@
 \item{workFolder}{where to work}
 }
 \description{
-more details
+helper object with more connection details
 }

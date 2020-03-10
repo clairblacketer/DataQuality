@@ -1,6 +1,6 @@
 Package: DataQuality
 Title: Data Quality study in OHDSI and data quality evaluation
-Version: 4.0
+Version: 4.1
 Authors@R: "Vojtech Huser <vojtech.huser@nih.gov> [aut, cre]"
 Description: This package has several functions. It supports Data Quality Dashboard and OHDSI Data Quality study. 
     It also allows Data Quality evaluation (even after closure of the formal study). 
@@ -18,7 +18,7 @@ Imports:
 License: Apache License 2.0
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.1.1
+RoxygenNote: 7.0.2
 Suggests: knitr,
     rmarkdown
 VignetteBuilder: knitr
